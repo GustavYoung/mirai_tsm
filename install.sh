@@ -16,20 +16,20 @@ reset=`tput sgr0`
 #echo "${red}red text ${green}green text${reset}"
 
 sleep 1;
-SERVICE="glibimg_installer_V4";
+SERVICE="glibimg_installer_V5";
 echo "${red}${bg_white}${ng}Comenzando instalacion...${reset}";
 cd /home/uslu/;
 
 echo "Parchando Modulos...";
 
-  sudo chmod +x /home/uslu/rpg_imgk/fboCatch.self;
-  sudo chmod +x /home/uslu/rpg_imgk/glibimg.exe
+  sudo chmod +x /home/uslu/mirai_tsm/fboCatch.self;
+  sudo chmod +x /home/uslu/mirai_tsm/glibimg.exe;
   echo "a...";
   sudo apt-get install libjpeg-dev
-  cd /home/uslu/rpg_imgk/sauce/omxiv/
-  make ilclient
-  make
-  sudo make install
+ # cd /home/uslu/mirai_tsm/sauce/omxiv/
+ # make ilclient
+ # make
+ # sudo make install
   sleep 2;
   echo "finalizado"
 exit 0
