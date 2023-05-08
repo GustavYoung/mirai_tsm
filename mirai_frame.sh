@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /home/uslu/mirai_tsm/
-resolution=$(sudo fbset -s | grep -oP '[[:digit:]]{1,4}x[[:digit:]]{1,4}')
+resolution=$(sudo tvservice -s | grep -oP '[[:digit:]]{1,4}x[[:digit:]]{1,4}')
 a="1920x1080"
 b="1280x720"
 c="720x480"
